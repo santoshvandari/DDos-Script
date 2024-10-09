@@ -32,8 +32,8 @@ This tool is for **educational purposes only**. Performing a DDoS attack on a ne
 Clone this repository and install the required dependencies (if any):
 
 ```bash
-git clone https://github.com/santoshvandari/dos-script.git
-cd dos-script
+git clone https://github.com/santoshvandari/DDos-Script.git
+cd DDos-Script
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ cd dos-script
 Run the Script With Python
 
 ```bash
-sudo python3 syn_flood_ddos.py -u <target-url> [-p <target-port>]
+sudo python3 main.py -u <target-url> [-p <target-port>]
 ```
 Arguments
 -u, --url (required): The URL of the target website you want to attack.
@@ -49,7 +49,7 @@ Arguments
 
 ## Example
 ```bash
-sudo python3 syn_flood_ddos.py -u example.com -p 80
+sudo python3 main.py -u example.com -p 80
 ```
 This will send SYN flood packets to example.com on port 80.
 
